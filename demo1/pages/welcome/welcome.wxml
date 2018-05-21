@@ -1,0 +1,9 @@
+<view class='welcome-container'>
+  <view class='user-info'>
+    <image src='/images/avatar/avatar.jpg' class='welcome-avatar'></image>
+    <text> 陈阳</text>
+  </view>
+  <view>
+    <text class='welcome-btn' bindtap='goPosts'>开启小程序之旅</text>
+  </view>
+</view>

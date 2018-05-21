@@ -1,0 +1,17 @@
+<template name='postItem'>
+  <view class='posts-container'>
+    <view>
+      <image src='{{avatar}}' class='post-avatar'></image>
+      <text class='post-date'>{{date}}</text>
+    </view>
+    <text class='post-title'>{{title}}</text>
+    <image src='{{cover}}' class='post-cover'></image>
+    <text class='post-summary'>{{content}}</text>
+    <view class='operation'>
+      <image src='/images/icons/star.svg'></image>
+      <text>{{star}}</text>
+      <image src='/images/icons/notes.svg'></image>
+      <text>{{notes}}</text>
+    </view>
+  </view>
+</template>

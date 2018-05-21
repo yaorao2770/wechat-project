@@ -1,0 +1,101 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cover {
+  width: 100%;
+  height: 460rpx;
+}
+
+.music-icon{
+  width: 102rpx;
+  height: 110rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -51rpx;
+  top: 180rpx;
+  opacity: 0.7;
+}
+
+.author-info {
+  flex-direction: row;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.detail-avatar {
+  width: 65rpx;
+  height: 65rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.detail-author{
+  font-size: 30rpx;
+  font-weight: 300;
+  vertical-align: middle;
+  margin-left: 20rpx;
+  color: #666;
+}
+
+.const-text{
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+
+.detail-date{
+  vertical-align: middle;
+  margin-left: 30rpx;
+}
+
+.detail-title{
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  font-size: 35rpx;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #4b556c;
+}
+
+.detail-operation{
+  margin-top: 20rpx;
+  width: 100%;
+}
+
+.circle-wrap{
+  float: right;
+  margin-right: 40rpx;
+  vertical-align: middle;
+}
+
+.circle-wrap image{
+  width:80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.circle-wrap .share-icon{
+  margin-left: 30rpx;
+} 
+
+.split-line{
+  width: 660rpx;
+  height: 1px;
+  background: #e5e5e5;
+  vertical-align: middle;
+  position: relative;
+  top: 34rpx;
+  margin: 0 auto;
+  z-index: -99;
+}
+
+.detail-content{
+  color: #666;
+  margin: 20rpx 30rpx 0 30rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+  text-indent: 40rpx;
+}

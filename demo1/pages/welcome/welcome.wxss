@@ -1,0 +1,28 @@
+page{
+  background: #b3d4db;
+}
+
+.welcome-container, .user-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info{
+  margin-bottom: 100px;
+}
+
+.welcome-avatar{
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.welcome-btn{
+  border:1px solid #333;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
